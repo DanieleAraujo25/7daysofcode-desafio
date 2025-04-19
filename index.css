@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    text-align: center
+}
+
+/*navbar*/
+nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    padding: 50; 
+}
+button{
+    padding: 5px 20px;
+    margin: 0 20px;
+    border: none;
+    background-color: rgba(142, 36, 36, 1);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*sobre*/
+.sobre{
+    margin-top: 60px;
+    padding: 0px 450px;
+}
+
+.sobre h6 {
+    font-size: 12px;
+    color:  rgba(142, 36, 36, 1);
+    margin-top: 10px;
+}
+.sobre p {
+    font-size: 15px;
+    color: rgba(102, 112, 133, 1);
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+/*darshboard*/
+.container {
+    margin: 0px auto;
+    max-width: 900px;
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    
+  }
+  .darshboard h3 {
+    margin-bottom: -5px;
+    font-size: 40px;
+    color: rgba(142, 36, 36, 1);
+  }
+  .darshboard p {
+    font-size: 12px;
+    color: rgba(102, 112, 133, 1);
+  }
+  .darshboard h5{
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+
+  /*vagas*/
+  .vagas{
+        margin-top: 60px;
+    }
+    
+    .vagas h6 {
+        font-size: 12px;
+        color:  rgba(142, 36, 36, 1);
+        margin-top: 10px;
+    }
+    .vagas p {
+        font-size: 15px;
+        color: rgba(102, 112, 133, 1);
+        margin-top: 10px;
+        display:flex;
+        justify-content: center;
+    }
+
+    /*informação*/
+    .info{
+        margin-top: 60px;
+        display: grid;
+        text-align: left;
+        list-style: none;
+        justify-items: center;
+    }
+    .info h5 {
+        margin-bottom: 0px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .info li{
+        font-size: 12px;
+        color: rgba(102, 112, 133, 1);
+        margin-top: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(230, 231, 235);
+        border-radius: 15px 15px 15px 15px;
+        gap: 30px;
+        padding: 9px 200px;
+        justify-items: left;
+    }
+    .titulo{
+        font-size: 13px;
+        color: black;
+        margin-top: 12px;
+    }
+
+    /*nossos colaboradores*/
+    .container2{
+        border-color:rgba(195, 25, 25, 0.03);
+        border-radius: 15px 15px 15px 15px;
+        background-color: rgba(195, 25, 25, 0.03);
+        padding: 9px 200px;
+    }
+ 
+    
